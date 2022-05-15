@@ -9,7 +9,6 @@ double cal(double x)
 	b = -7 * pow(x, 4);
 	c = 9;
 	result = a + b + c;
-
 	return result;
 }
 
