@@ -19,5 +19,4 @@ void main()
 	printf("x의 값을 입력하세요: ");
 	scanf("%lf", &x);
 	printf("\noutput:\nx의값이 %.2lf일 때, 다항식의 값은 %.2lf입니다.", x, cal(x));
-
 }
