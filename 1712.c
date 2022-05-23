@@ -3,10 +3,10 @@
 
 int main()
 {
-	int a, b, c; //a 고정비용 b 가변비용 c노트북 가격
+	int a=0, b=0, c=0; //a 고정비용 b 가변비용 c노트북 가격
 	scanf("%d %d %d", &a, &b, &c);
 
-	if (c >= b)
+	if (c > b)
 	{
 		printf("%d", a / (c - b) + 1);
 	}
