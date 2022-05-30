@@ -10,7 +10,7 @@ int factorial(int n)
 	else
 	{
 		return n * factorial(n - 1);
-		//if n=3이면 1.3*factorial(2), 2. 3*2*fatorial(1) 3. 3*2*1. 따라서 return 6;
+		//if n=3, 1.3*factorial(2),    2. 3*2*fatorial(1)    3. 3*2*1.       return 6;
 	}
 }
 
